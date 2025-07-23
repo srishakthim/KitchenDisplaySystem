@@ -214,6 +214,8 @@ const Home = () => {
           </button>
         </div>
       </section>
+
+      {/* Reservation Section */}
       <section
         className="relative bg-cover bg-center bg-no-repeat py-24 px-4"
         style={{ backgroundImage: `url(${Reserve})` }}
