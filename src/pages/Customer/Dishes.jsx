@@ -1,12 +1,12 @@
 // /pages/Dishes.jsx
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addToCart, buyNow } from "../redux/slices/cartSlice";
+import { addToCart, buyNow } from "../../redux/slices/cartSlice";
 import { useNavigate } from "react-router-dom";
-import Dish1 from "../assets/Dish1.png";
-import Dish2 from "../assets/Dish2.png";
-import Dish3 from "../assets/Dish3.png";
-import Dish4 from "../assets/Dish4.png";
+import Dish1 from "../../assets/Dish1.png";
+import Dish2 from "../../assets/Dish2.png";
+import Dish3 from "../../assets/Dish3.png";
+import Dish4 from "../../assets/Dish4.png";
 
 const dishData = [
   {

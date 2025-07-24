@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { clearBuyNow } from "../redux/slices/cartSlice";
+import { clearBuyNow } from "../../redux/slices/cartSlice";
 
 const BuyNow = () => {
   const dispatch = useDispatch();

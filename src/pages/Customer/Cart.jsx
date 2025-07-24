@@ -1,7 +1,7 @@
 // src/pages/Cart.jsx
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addToCart, removeFromCart, clearBuyNow } from "../redux/slices/cartSlice";
+import { removeFromCart, clearBuyNow } from "../../redux/slices/cartSlice";
 
 const Cart = () => {
   const dispatch = useDispatch();

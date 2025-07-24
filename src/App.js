@@ -1,11 +1,11 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/Customer/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Dishes from "./pages/Dishes";
-import Cart from "./pages/Cart";
-import BuyNow from "./pages/BuyNow"; // ✅ If you want a separate buy now page
+import Dishes from "./pages/Customer/Dishes";
+import Cart from "./pages/Customer/Cart";
+import BuyNow from "./pages/Customer/BuyNow"; 
 import MainLayout from "./components/layouts/MainLayout";
 import AuthLayout from "./components/layouts/AuthLayout";
 

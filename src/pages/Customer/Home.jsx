@@ -1,12 +1,12 @@
 import React from "react";
-import HomeImage from "../assets/Home.png";
-import logo from "../assets/Logo.png";
+import HomeImage from "../../assets/Home.png";
+import logo from "../../assets/Logo.png";
 import { MapPin, Clock, ClipboardList } from "lucide-react";
-import Dish1 from "../assets/Dish1.png";
-import Dish2 from "../assets/Dish2.png";
-import Dish3 from "../assets/Dish3.png";
-import Dish4 from "../assets/Dish4.png";
-import Reserve from "../assets/Reserve.png";
+import Dish1 from "../../assets/Dish1.png";
+import Dish2 from "../../assets/Dish2.png";
+import Dish3 from "../../assets/Dish3.png";
+import Dish4 from "../../assets/Dish4.png";
+import Reserve from "../../assets/Reserve.png";
 import { useNavigate } from "react-router-dom";
 
 
